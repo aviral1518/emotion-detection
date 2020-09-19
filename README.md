@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks. The model is trained on the **FER-2013** dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with **seven emotions** - angry, disgusted, fearful, happy, neutral, sad and surprised.
+This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks. This repository is an implementation of [this](https://drive.google.com/file/d/1Jm9mI6V85XGD4_eKTje0voz1PKKVFOsr/view?usp=sharing) research paper. The model is trained on the **FER-2013** dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with **seven emotions** - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
 ## Dependencies
 
@@ -11,7 +11,7 @@ This project aims to classify the emotion on a person's face into one of **seven
 
 ### TFLearn
 
-* Download the **trained model** files from [here](https://drive.google.com/file/d/1rdgSdMcXIvfoPmf702UCtH6RNcvkKFu7/view?usp=sharing), extract it and copy the files into the current working directory.
+* Download the **trained model** files from [here](https://drive.google.com/drive/folders/14XDIGAdNdMcpvWSn5yCvbdwUfHsYxWTh?usp=sharing), extract it and copy the files into the current working directory.
 
 * To run the program to detect emotions only in **one face**, type `python model.py singleface`.
 
